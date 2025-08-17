@@ -47,3 +47,30 @@
 .nav-links a:hover {
   color: #b25014;
 }
+
+.nav-user-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-user-link:hover .nav-user {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.logout-btn2 {
+  font-size: 14px;
+  padding: 6px 12px;
+  background-color: #e46c0a;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-family: 'Frank Ruhl Libre', serif;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-btn2:hover {
+  background-color: #b25014;
+}
